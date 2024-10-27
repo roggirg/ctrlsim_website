@@ -1,0 +1,66 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+section.page-header {
+    padding: 2rem 3rem;
+}
+section.page-header .btn {
+  display: none;
+}
+
+.ex-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+}
+
+@font-face {
+  font-family: transfontmer;
+  src: url("../SFTransRobotics.ttf");
+}
+
+h1.project-name span {
+  font-family: transfontmer;
+  font-weight: normal;
+}
+
+.btn-head {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+.btn-head {
+  @media screen and (min-width: 64em) {
+        padding: 0.75rem 1rem;
+  }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+        padding: 0.6rem 0.9rem;
+        font-size: 0.9rem;
+  }
+  @media screen and (max-width: 42em) {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 0.9rem;
+  }
+}
+
+.btn-head:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+// :root {
+//   --bs-blue: #0dcaf0;
+// };
