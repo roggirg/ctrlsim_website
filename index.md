@@ -14,6 +14,7 @@ We propose CtRL-Sim, a framework that leverages return-conditioned offline reinf
 ## Key Features 
 
 
+
 - Reactive Simulation: Unlike traditional replay methods, CtRL-Sim supports closed-loop simulations with responsive agent behaviors. 
 
 - Controllability: The framework allows precise control of agent behaviors, facilitating the creation of both typical and adversarial driving scenarios. 
